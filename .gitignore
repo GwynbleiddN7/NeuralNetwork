@@ -33,4 +33,4 @@
 *.exe
 *.out
 *.app
-./output
+output
