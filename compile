@@ -1,0 +1,10 @@
+#!/bin/bash
+
+fileName=""
+if [[ $1 = "mnist" ]] then
+	fileName="mainMNIST.cpp mnist.cpp"
+else
+	fileName="mainLogic.cpp"
+fi
+
+g++ $fileName NeuralNetwork.cpp utility.cpp -o output

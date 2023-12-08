@@ -77,24 +77,24 @@ double** read_mnist_labels(string full_path, int& img_num)
 
 double** getTrainingImages(int& img_num, int& image_size)
 {
-    string path = "/home/gwynn7/Documents/Programming/NeuralNetwork/input/train-images-idx3-ubyte";
+    string path = "/home/gwynn7/Documents/Programming/NeuralNetwork/data/MNIST/train-images-idx3-ubyte";
     return read_mnist_images(path, img_num, image_size);
 }
 
 double** getTestingImages(int& img_num, int& image_size)
 {
-    string path = "/home/gwynn7/Documents/Programming/NeuralNetwork/input/t10k-images-idx3-ubyte";
+    string path = "/home/gwynn7/Documents/Programming/NeuralNetwork/data/MNIST/t10k-images-idx3-ubyte";
     return read_mnist_images(path, img_num, image_size);
 }
 
 double** getTrainingLabels(int& img_num)
 {
-    string path = "/home/gwynn7/Documents/Programming/NeuralNetwork/input/train-labels-idx1-ubyte";
+    string path = "/home/gwynn7/Documents/Programming/NeuralNetwork/data/MNIST/train-labels-idx1-ubyte";
     return read_mnist_labels(path, img_num);
 }
 
 double** getTestingLabels(int& img_num)
 {
-    string path = "/home/gwynn7/Documents/Programming/NeuralNetwork/input/t10k-labels-idx1-ubyte";
+    string path = "/home/gwynn7/Documents/Programming/NeuralNetwork/data/MNIST/t10k-labels-idx1-ubyte";
     return read_mnist_labels(path, img_num);
 }
