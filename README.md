@@ -1,22 +1,51 @@
-Neural Network made in C++
-Uses Back Propagation algorithm and Gradient Descent
+# Neural Networks
 
-------------------
+Simple customizable Neural Network made in C++ and C# (still WIP)
 
-Neuron
 
-Synapse
+## Documentation
 
-Neural Layer
+These Neural Networks use [Back Propagation](https://www.geeksforgeeks.org/backpropagation-in-neural-network/) algorithm with [Gradient Descent](https://www.geeksforgeeks.org/gradient-descent-algorithm-and-its-variants/)
 
-Neural Network
+### Componenets
+- Neuron
+- Synapse
+- Neural Layer
+- Neural Network
 
-------------------
+### Working
+- Pulse
+- Calculate Delta
+- Backpropagate
+- Gradient Descent
 
-1- Pulse
+## Run Locally
 
-2- Calculate Delta
+Clone the project
 
-3- Backpropagate
+```bash
+git clone https://github.com/GwynbleiddN7/NeuralNetwork.git
+```
 
-4- Gradient Descent
+Go to the project directory of the desired language
+
+```bash
+cd NeuralNetwork/Cpp
+cd NeuralNetowrk/CSharp
+```
+
+Run Neural Network
+
+```bash
+#Work in Progress
+```
+
+## Usage/Examples
+
+```javascript
+//Work in Progress
+```
+
+## License
+
+[GNU AGPLv3 ](https://choosealicense.com/licenses/agpl-3.0/)
