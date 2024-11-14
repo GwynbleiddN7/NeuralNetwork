@@ -5,7 +5,7 @@ Neural Network from scratch, written both in C++ and C#. It can recognize simple
 
 ## Documentation
 
-The [Neural Network](https://youtube.com/playlist?list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&si=ntn4wp9D1PuWzI0L) works with the most common [Activation Functions](), and learns through [Back Propagation](https://www.geeksforgeeks.org/backpropagation-in-neural-network/) and [Gradient Descent](https://www.geeksforgeeks.org/gradient-descent-algorithm-and-its-variants/)
+The [Neural Network](https://youtube.com/playlist?list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&si=ntn4wp9D1PuWzI0L) works with the most common [Activation Functions](https://medium.com/@cmukesh8688/activation-functions-sigmoid-tanh-relu-leaky-relu-softmax-50d3778dcea5), and learns through [Back Propagation](https://www.geeksforgeeks.org/backpropagation-in-neural-network/) and [Gradient Descent](https://www.geeksforgeeks.org/gradient-descent-algorithm-and-its-variants/)
 
 ### Componenets
 - Neurons
