@@ -34,3 +34,10 @@
 *.out
 *.app
 output
+
+bin
+obj
+/.vs
+/.vscode
+.idea/
+desktop.ini
