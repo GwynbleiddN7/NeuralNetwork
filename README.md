@@ -1,23 +1,25 @@
 # Neural Networks
 
-Simple customizable Neural Network made in C++ and C# (still WIP)
+Neural Network from scratch, written both in C++ and C#. It can recognize simple patterns (logic gates), and more complex patterns (MNIST Database). Customizable in size and in activation functions.
 
 
 ## Documentation
 
-These Neural Networks use [Back Propagation](https://www.geeksforgeeks.org/backpropagation-in-neural-network/) algorithm with [Gradient Descent](https://www.geeksforgeeks.org/gradient-descent-algorithm-and-its-variants/)
+The [Neural Network](https://youtube.com/playlist?list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&si=ntn4wp9D1PuWzI0L) works with the most common [Activation Functions](), and learns through [Back Propagation](https://www.geeksforgeeks.org/backpropagation-in-neural-network/) and [Gradient Descent](https://www.geeksforgeeks.org/gradient-descent-algorithm-and-its-variants/)
 
 ### Componenets
-- Neuron
-- Synapse
-- Neural Layer
+- Neurons
+- Synapses
+- Neural Layers
 - Neural Network
 
-### Working
-- Pulse
-- Calculate Delta
-- Backpropagate
-- Gradient Descent
+### Algorithm
+- Forward Propagation
+  - **ReLu** and **SoftMax** as default activation functions
+- Error Calculation
+  - **Cross Entropy** calculation for total error
+- Back Propagation and Gradient Descent
+  - **Batch** and **Mini-Batch**
 
 ## Run Locally
 
@@ -31,7 +33,7 @@ Go to the project directory of the desired language
 
 ```bash
 cd NeuralNetwork/Cpp
-cd NeuralNetowrk/CSharp
+cd NeuralNetwork/CSharp
 ```
 
 Run Neural Network
@@ -42,8 +44,8 @@ Run Neural Network
 
 ## Usage/Examples
 
-```javascript
-//Work in Progress
+```bash
+#Work in Progress
 ```
 
 ## License
